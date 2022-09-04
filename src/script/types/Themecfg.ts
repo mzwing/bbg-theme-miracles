@@ -1,6 +1,4 @@
-type CommentService = "valine";
-
 export interface Themecfg {
-  commentService: CommentService,
+  commentService: "valine",
   hitokotoApiUrl: string
 }
