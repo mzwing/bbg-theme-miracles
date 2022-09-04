@@ -1,7 +1,7 @@
 export interface Config {
   "博客标题": string,
   "博客描述（副标题）": string,
-  "网站语言": "简体中文" | "English",
+  "网站语言": "简体中文" | "English" | "日本語",
   "在菜单中添加归档和标签的入口": boolean,
   "在文章或页面的底部添加分享按钮，以便复制直链url": boolean,
   "静态资源": {
@@ -107,8 +107,8 @@ export interface Config {
   "启用自定义JS": boolean,
   "自定义CSS": string,
   "自定义JS": string,
-  "文章列表中每页的文章数为": "10",
-  "全站内容授权协议": "reserved",
+  "文章列表中每页的文章数为": string | number,
+  "全站内容授权协议": string,
   "不使用全站内容授权协议": boolean,
   "文章页面显示上一篇下一篇文章导航按钮": boolean,
   "提供文章文件下载": boolean,
