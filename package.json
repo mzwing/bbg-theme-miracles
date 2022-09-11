@@ -1,7 +1,7 @@
 {
   "name": "bbg-theme-miracles",
   "version": "0.0.1",
-  "packageManager": "pnpm@7.9.4",
+  "packageManager": "pnpm@7.11.0",
   "description": "A bbg theme, which is like Typecho theme Miracles",
   "license": "UNLICENSED",
   "author": {
@@ -34,18 +34,18 @@
     "mzwing"
   ],
   "dependencies": {
-    "lit": "^2.2.8"
+    "lit": "^2.3.1"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.34.0",
-    "@typescript-eslint/parser": "^5.34.0",
-    "eslint": "^8.22.0",
+    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "@typescript-eslint/parser": "^5.36.2",
+    "eslint": "^8.23.0",
     "eslint-plugin-jsonc": "^2.4.0",
     "eslint-plugin-markdown": "^3.0.0",
-    "eslint-plugin-yml": "^1.0.0",
+    "eslint-plugin-yml": "^1.2.0",
     "htmlhint": "^1.1.4",
-    "typescript": "^4.6.4",
-    "vite": "^3.0.7"
+    "typescript": "^4.8.3",
+    "vite": "^3.1.0"
   },
   "bugs": {
     "url": "https://github.com/mzwing/bbg-theme-miracles/issues"
