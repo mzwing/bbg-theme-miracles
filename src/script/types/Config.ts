@@ -18,16 +18,16 @@ export interface Config {
     "链接": string,
     "简介": string,
     "图标": string
-  } | null>,
+  }>,
   "友人帐页面允许评论": boolean,
   "启用网站公告": boolean,
   "网站公告仅在首页显示": boolean,
   "网站公告": string,
-  "菜单中的外部链接": Array<{
+  "菜单中的外部链接"?: Array<{
     "显示名称": string,
     "url": string,
     "是否在新标签页打开": boolean
-  } | null>,
+  }>,
   "全局主题设置": {
     "//": string,
     "是否使用第三方主题": boolean,
